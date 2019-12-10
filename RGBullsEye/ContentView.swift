@@ -20,11 +20,11 @@ struct ContentView: View {
         VStack {
             HStack {
                 VStack {
-                    /*@START_MENU_TOKEN@*/Color(red: 0.5, green: 0.5, blue: 0.5)/*@END_MENU_TOKEN@*/
+                    Color(red: rTarget, green: gTarget, blue: bTarget)
                     Text("Match this color")
                 }
                 VStack {
-                    /*@START_MENU_TOKEN@*/Color(red: 0.5, green: 0.5, blue: 0.5)/*@END_MENU_TOKEN@*/
+                    Color(red: rGuess, green: gGuess, blue: bGuess)
                     Text("R: 127 G: 127 B: 127")
                 }
             }
@@ -32,7 +32,12 @@ struct ContentView: View {
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 Text("Hit Me!")
             }
-            Slider(value: .constant(0.5))
+            HStack {
+                Text("0").foregroundColor(.red)
+                Slider(value: $rGuess)
+                Text("255").foregroundColor(.red)
+                
+            }.padding(.horizontal)
         }
     }
 }
