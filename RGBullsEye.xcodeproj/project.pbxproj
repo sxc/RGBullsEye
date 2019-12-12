@@ -13,6 +13,7 @@
 		340CCE08239F76D800A5B067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340CCE07239F76D800A5B067 /* Assets.xcassets */; };
 		340CCE0B239F76D800A5B067 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340CCE0A239F76D800A5B067 /* Preview Assets.xcassets */; };
 		340CCE0E239F76D800A5B067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340CCE0C239F76D800A5B067 /* LaunchScreen.storyboard */; };
+		343A278E23A202D00017C189 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343A278D23A202D00017C189 /* TimeCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		340CCE0A239F76D800A5B067 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		340CCE0D239F76D800A5B067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340CCE0F239F76D800A5B067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343A278D23A202D00017C189 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				340CCE0C239F76D800A5B067 /* LaunchScreen.storyboard */,
 				340CCE0F239F76D800A5B067 /* Info.plist */,
 				340CCE09239F76D800A5B067 /* Preview Content */,
+				343A278D23A202D00017C189 /* TimeCounter.swift */,
 			);
 			path = RGBullsEye;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				340CCE02239F76D200A5B067 /* AppDelegate.swift in Sources */,
 				340CCE04239F76D200A5B067 /* SceneDelegate.swift in Sources */,
 				340CCE06239F76D200A5B067 /* ContentView.swift in Sources */,
+				343A278E23A202D00017C189 /* TimeCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
